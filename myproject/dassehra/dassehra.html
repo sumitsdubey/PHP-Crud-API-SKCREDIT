@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Dassehra</title>
+    <style>
+      body{
+        background-color: rgb(14, 13, 52);
+      }
+        .container{
+          background-color: rgb(14, 13, 52);
+            width: 100%;
+            min-height: 95vh;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        .myvideo{
+          width: 100%;
+          min-height: 95vh;
+        }
+        button{
+          margin: auto;
+          position: absolute;
+          background: transparent;
+          min-height: 95vh;
+          width: 100%;
+          border: 0px;
+        }
+        .footer{
+          width: 100%;
+          height: auto;
+          background-color: rgb(14, 13, 52);
+          color: thistle;
+          text-align: center;
+        }
+      h1{
+        color: rgba(240, 248, 255, 0.495);
+        position:absolute;
+        margin: auto;
+      }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html> 
+<html> 
+<body> 
+
+
+<!-- <button onclick="pauseVid()" type="button">Pause Video</button><br>  -->
+<div class="container">
+<video id="myVideo" class="myvideo">
+  <source src="https://ik.imagekit.io/xmzjofg7z/d_eK0J-t1oQ.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1664972737952" type="video/mp4">
+  </video>
+  <button onclick="playVid()" type="button"></button>
+  <h1>Click Now</h1>
+</div>
+<div class="footer">
+  <p>@Sumit Dubey</p>
+</div>
+<script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+} 
+</script> 
+</body> 
+</html>
+
+</body>
+</html>
